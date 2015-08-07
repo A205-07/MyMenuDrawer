@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.meitwo.menudrawer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.meitwo.menudrawer.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.meitwo.menudrawer.LoginActivity" >
+        </activity>
+        <activity android:name="com.meitwo.menudrawer.SetPasswordActivity" >
+        </activity>
+        <activity
+            android:name="com.meitwo.menudrawer.GuideActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity android:name="com.meitwo.menudrawer.MyMenuDrawer" >
+        </activity>
+        <activity
+            android:name="com.meitwo.menudrawer.SaoMiaoActivity"
+            android:label="音乐之城" >
+        </activity>
+        <activity
+            android:name="com.meitwo.menudrawer.GeQu"
+            android:label="音乐之城" >
+        </activity>
+    </application>
+
+</manifest>

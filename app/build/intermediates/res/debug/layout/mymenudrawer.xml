@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg">
+
+    <!-- Action-bar looking view -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#4682B4" >
+
+        <ImageButton
+            android:id="@+id/img_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/menu" />
+
+        <TextView
+            android:id="@+id/indicator_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="12dp"
+            android:text="音乐之城"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <!-- Content -->
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <TextView
+            android:id="@+id/view_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+
+            android:background="@drawable/main_bg"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+
+                android:background="#88ffffff"
+                android:scaleType="fitXY"
+                android:src="@drawable/a1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#88ffffff"
+                android:scaleType="fitXY"
+                android:src="@drawable/a2" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="#88ffffff"
+                android:scaleType="fitXY"
+                android:src="@drawable/a3" />
+        </RelativeLayout>
+
+
+        <ListView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/left_drawer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@drawable/main_bg"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/black"
+            android:dividerHeight="1dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="4dp" />
+
+        <ListView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/right_drawer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/black"
+            android:dividerHeight="1dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="4dp" />
+    </android.support.v4.widget.DrawerLayout>
+
+
+
+
+</LinearLayout><!-- From: file:/F:/Android项目库/MyMenuDrawer/app/src/main/res/layout/mymenudrawer.xml -->

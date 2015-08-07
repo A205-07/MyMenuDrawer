@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg">
+
+<ImageView
+    android:layout_width="95dp"
+    android:layout_height="95dp"
+    android:src="@drawable/saomiao"
+    android:layout_above="@+id/saomiao"
+    android:layout_alignLeft="@+id/saomiao"
+    android:layout_alignStart="@+id/saomiao" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/saomiao"
+        android:text="扫描歌曲"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+<!-- From: file:/F:/Android项目库/MyMenuDrawer/app/src/main/res/layout/saomiaolayout.xml -->

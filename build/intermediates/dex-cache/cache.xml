@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\gaobo\android_tools\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\gaobo\Test\MyMenuDrawer\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-525d620bbdab4feb7b2856f2458cd0a7d065f4cc.jar" />
+    </item>
+
+</items>
